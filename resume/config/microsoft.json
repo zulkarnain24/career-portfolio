@@ -1,0 +1,8 @@
+{
+  "theme": "microsoft",
+  "showAI": true,
+  "showProjects": true,
+  "showBlog": false,
+  "maxProjects": 4,
+  "maxExperience": 4
+}

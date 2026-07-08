@@ -1,0 +1,12 @@
+{
+  "$id": "profile.schema.json",
+  "type": "object",
+  "required": ["name"],
+  "properties": {
+    "name": { "type": "string" },
+    "title": { "type": "string" },
+    "email": { "type": "string" },
+    "website": { "type": "string" },
+    "summary": { "type": "string" }
+  }
+}

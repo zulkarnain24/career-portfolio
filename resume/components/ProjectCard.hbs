@@ -1,0 +1,10 @@
+<article class="project-card">
+  <h3 class="project-title">{{title}}</h3>
+  {{#if company}}<div class="project-company">{{company}}</div>{{/if}}
+  {{#if technologies}}
+    <div class="project-tech">
+      {{#each technologies}}<span class="tech">{{this}}</span>{{/each}}
+    </div>
+  {{/if}}
+  <div class="project-body">{{{html}}}</div>
+</article>

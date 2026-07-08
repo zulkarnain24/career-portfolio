@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "node resume/scripts/build.js",
     "build": "node resume/scripts/build.js",
-    "clean": "rimraf resume/dist"
+    "render": "node resume/scripts/render.js",
+    "clean": "rimraf resume/dist",
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,8 @@
     "markdown-it": "^14.3.0",
     "marked": "^18.0.5",
     "prettier": "^3.9.4",
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
     "puppeteer": "^25.3.0",
     "qrcode": "^1.5.4",
     "rimraf": "^6.1.3",

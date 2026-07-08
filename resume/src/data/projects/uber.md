@@ -15,13 +15,10 @@ A full-featured ride-sharing application built with real-time location tracking 
 
 **Impact:**
 
-- 50,000+ active users
-- 10,000+ daily rides
-- 4.7/5 star rating
+- Supported 50k+ active users and 10k+ daily rides by optimizing location update and matching algorithms.
 
 **Technical Highlights:**
 
-- Implemented real-time map tracking using Google Maps API
-- Built payment processing with Stripe integration
-- Designed efficient location update protocol reducing battery drain by 45%
-- Created advanced notification system for ride matching
+- Implemented efficient, battery-friendly location updates and real-time map tracking with Google Maps.
+- Built secure payment flows using Stripe and hardened transaction reliability.
+- Designed an optimized ride-matching pipeline that reduced false matches and improved pickup times.

@@ -1,0 +1,24 @@
+@import "../tokens.css";
+
+@page {
+  size: A4;
+  margin: 20mm;
+}
+@media print {
+  body {
+    background: white;
+    color: var(--color-primary);
+  }
+  .container {
+    padding: 0;
+    max-width: 100%;
+  }
+  .rp-header {
+    box-shadow: none;
+    background: transparent;
+  }
+  .section {
+    box-shadow: none;
+    background: transparent;
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$id": "project.schema.json",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "company": { "type": "string" },
+    "technologies": { "type": "array" },
+    "featured": { "type": "boolean" },
+    "priority": { "type": "number" },
+    "visible": { "type": "boolean" }
+  }
+}

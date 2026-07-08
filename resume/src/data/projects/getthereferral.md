@@ -15,13 +15,10 @@ An internal talent acquisition platform enabling employees to refer candidates a
 
 **Impact:**
 
-- 500+ active employers
-- 50,000+ successful referrals
-- 10,000+ monthly active users
+- Enabled 50k+ successful referrals and supported 500+ employers by automating referral workflows and real-time tracking.
 
 **Technical Highlights:**
 
-- Built full-stack web and mobile application
-- Implemented gamification and reward system
-- Designed real-time referral tracking dashboard
-- Created secure candidate data pipeline
+- Built full-stack web and mobile platforms with secure data flows and real-time dashboards.
+- Implemented gamification to increase referral participation and designed reward pipelines integrated with employer systems.
+- Ensured data privacy and compliance in candidate pipelines.

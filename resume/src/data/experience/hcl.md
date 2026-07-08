@@ -11,11 +11,11 @@ priority: 2
 
 **Senior Software Engineer** | 2018 - 2020
 
-Developed enterprise mobile applications for global clients. Led cross-functional teams in delivering large-scale React Native and native iOS projects. Managed technical architecture decisions and code quality standards.
+Delivered enterprise mobile solutions for global clients, owning technical architecture, scalability, and delivery practices. Focused on performance, observability, and secure integrations for high-usage consumer and enterprise apps.
 
 **Key Achievements:**
 
-- Delivered 5+ enterprise mobile applications for Fortune 500 clients
-- Built React Native architecture supporting 2M+ active users
-- Established mobile development best practices and code review standards
-- Led team of 6 engineers across multiple product lines
+- Led architecture and delivery for 5+ enterprise mobile products for Fortune 500 clients, meeting strict SLAs.
+- Designed React Native architecture and native bridges supporting scale to 2M+ users with reliability-focused telemetry.
+- Introduced code-quality and CI practices that reduced regressions and shortened release cycles.
+- Managed and mentored a distributed team of 6 engineers across parallel product streams.
