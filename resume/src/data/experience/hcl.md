@@ -14,6 +14,7 @@ priority: 2
 Developed enterprise mobile applications for global clients. Led cross-functional teams in delivering large-scale React Native and native iOS projects. Managed technical architecture decisions and code quality standards.
 
 **Key Achievements:**
+
 - Delivered 5+ enterprise mobile applications for Fortune 500 clients
 - Built React Native architecture supporting 2M+ active users
 - Established mobile development best practices and code review standards

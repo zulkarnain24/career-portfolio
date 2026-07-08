@@ -14,6 +14,7 @@ priority: 1
 Led development of enterprise IoT and BLE Mesh solutions for power management systems. Architected mobile applications for industrial IoT monitoring and control using React Native and native iOS (SwiftUI). Drove adoption of AI-assisted development tools and workflows within the team.
 
 **Key Achievements:**
+
 - Architected BLE Mesh protocol implementation for 10,000+ device deployments
 - Built React Native application serving 50,000+ users across industrial sectors
 - Mentored 8+ junior engineers in mobile architecture and AI-assisted development

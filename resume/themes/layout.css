@@ -1,0 +1,140 @@
+/* Layout System */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  line-height: 1.6;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: var(--paper-content-width);
+  margin: 0 auto;
+}
+
+/* Paper/Page Layout */
+
+.page {
+  width: var(--paper-width);
+  height: var(--paper-height);
+  margin: 0 auto;
+  padding: var(--paper-margin);
+  background: var(--background);
+  box-shadow: var(--shadow-lg);
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+}
+
+/* Sections */
+
+section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+/* Grid System */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-1 * var(--spacing-md));
+  margin-left: calc(-1 * var(--spacing-md));
+}
+
+.col {
+  flex: 1 1 100%;
+  padding: var(--spacing-md);
+}
+
+.col-1 {
+  flex: 0 0 8.333%;
+}
+.col-2 {
+  flex: 0 0 16.666%;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-4 {
+  flex: 0 0 33.333%;
+}
+.col-6 {
+  flex: 0 0 50%;
+}
+
+/* Utilities */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: var(--spacing-sm);
+}
+.mb-2 {
+  margin-bottom: var(--spacing-md);
+}
+.mb-3 {
+  margin-bottom: var(--spacing-lg);
+}
+.mb-4 {
+  margin-bottom: var(--spacing-xl);
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-1 {
+  margin-top: var(--spacing-sm);
+}
+.mt-2 {
+  margin-top: var(--spacing-md);
+}
+.mt-3 {
+  margin-top: var(--spacing-lg);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

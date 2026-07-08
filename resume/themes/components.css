@@ -1,0 +1,182 @@
+/* Components */
+
+/* Header Component */
+
+.header {
+  text-align: center;
+  padding-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--primary);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.header-name {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.header-title {
+  font-size: var(--text-lg);
+  color: var(--secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.header-subtitle {
+  font-size: var(--text-sm);
+  color: var(--text-light);
+}
+
+.header-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+  font-size: var(--text-sm);
+}
+
+.header-contact-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+/* Section Component */
+
+.section-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  color: var(--primary);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Timeline Component */
+
+.timeline-item {
+  margin-bottom: var(--spacing-lg);
+  padding-left: var(--spacing-lg);
+  border-left: 3px solid var(--secondary);
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background: var(--secondary);
+  border-radius: 50%;
+}
+
+.timeline-title {
+  font-weight: 600;
+  font-size: var(--text-lg);
+  color: var(--primary);
+}
+
+.timeline-subtitle {
+  font-size: var(--text-sm);
+  color: var(--text-light);
+  margin-bottom: var(--spacing-sm);
+}
+
+.timeline-date {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin-top: var(--spacing-xs);
+}
+
+.timeline-description {
+  margin-top: var(--spacing-sm);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Skill Badge */
+
+.skill-badge {
+  display: inline-block;
+  background: var(--surface);
+  color: var(--primary);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--rounded-full);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  margin: var(--spacing-xs) var(--spacing-sm) var(--spacing-xs) 0;
+  border: 1px solid var(--border);
+}
+
+/* Project Card */
+
+.project-card {
+  border-left: 4px solid var(--secondary);
+  padding: var(--spacing-lg);
+  background: var(--surface);
+  margin-bottom: var(--spacing-lg);
+  border-radius: var(--rounded-md);
+}
+
+.project-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.project-meta {
+  font-size: var(--text-sm);
+  color: var(--text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.project-description {
+  margin-bottom: var(--spacing-md);
+  line-height: 1.7;
+}
+
+.project-tech {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+/* Footer Component */
+
+.footer {
+  text-align: center;
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--border);
+  margin-top: var(--spacing-2xl);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+/* QR Code Card */
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--surface);
+  border-radius: var(--rounded-lg);
+  text-align: center;
+}
+
+.qr-card img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid var(--border);
+}
+
+.qr-card-text {
+  font-size: var(--text-sm);
+  color: var(--text-light);
+}

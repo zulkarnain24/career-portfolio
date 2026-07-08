@@ -14,6 +14,7 @@ priority: 4
 Built consumer and enterprise iOS applications. Worked on shipping apps across multiple product categories including productivity, entertainment, and e-commerce.
 
 **Key Achievements:**
+
 - Shipped 8+ iOS applications to App Store
 - Achieved 4.5+ star ratings across all published apps
 - Implemented complex UI components and animations

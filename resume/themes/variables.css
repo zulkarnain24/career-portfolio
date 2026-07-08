@@ -1,0 +1,68 @@
+/* Design System Variables */
+
+:root {
+  /* Colors */
+  --primary: #0f172a;
+  --secondary: #2563eb;
+  --accent: #38bdf8;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --muted: #94a3b8;
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --border: #e2e8f0;
+  --error: #dc2626;
+  --success: #16a34a;
+  --warning: #ea580c;
+
+  /* Typography */
+  --font-sans:
+    "Inter", "Source Sans Pro", "Segoe UI", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  --font-mono: "Monaco", "Courier New", monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 2.5rem;
+  --spacing-3xl: 3rem;
+  --spacing-4xl: 4rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  /* Border Radius */
+  --rounded-sm: 0.25rem;
+  --rounded-md: 0.5rem;
+  --rounded-lg: 1rem;
+  --rounded-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease-in-out;
+  --transition-base: 300ms ease-in-out;
+  --transition-slow: 500ms ease-in-out;
+}
+
+/* Paper Width (A4) */
+:root {
+  --paper-width: 210mm;
+  --paper-height: 297mm;
+  --paper-margin: 18mm;
+  --paper-content-width: calc(var(--paper-width) - 2 * var(--paper-margin));
+}
