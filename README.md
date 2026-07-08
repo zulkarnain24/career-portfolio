@@ -1,13 +1,31 @@
 # Career Portfolio
 
-This repository contains a career portfolio with resume, portfolio pages, project writeups, blog posts, templates, and scripts.
+Professional engineering portfolio of **Zulqarnain Patel**.
 
-## Structure
+## Features
 
-- `resume/`: Resume source, HTML/CSS, and assets.
-- `portfolio/`: Portfolio website pages, styles, scripts, and assets.
-- `projects/`: Project case studies.
-- `blog/`: Blog posts and technical articles.
-- `templates/`: Resume/portfolio templates.
-- `scripts/`: Helper scripts and documentation.
-- `.github/workflows/`: CI/workflow configuration.
+- ATS Resume
+- Professional Portfolio
+- Project Showcase
+- AI Engineering Showcase
+- Blog
+- GitHub Pages
+- Automated Resume Generation
+- PDF Export
+- DOCX Export
+
+---
+
+## Tech Stack
+
+- Markdown
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+
+---
+
+## Build
+
+Coming Soon

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}} - {{name}}</title>
+
+    <!-- Design System -->
+    <link rel="stylesheet" href="../themes/variables.css" />
+    <link rel="stylesheet" href="../themes/typography.css" />
+    <link rel="stylesheet" href="../themes/layout.css" />
+    <link rel="stylesheet" href="../themes/components.css" />
+    <link rel="stylesheet" href="../themes/print.css" />
+
+    <!-- Theme (injected at build time) -->
+    <link rel="stylesheet" href="../themes/{{theme}}.css" />
+
+    <style>
+      body {
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-content">{{{content}}}</div>
+    </div>
+  </body>
+</html>

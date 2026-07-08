@@ -1,0 +1,41 @@
+{
+  "name": "career-portfolio",
+  "version": "1.0.0",
+  "description": "This repository contains a career portfolio with resume, portfolio pages, project writeups, blog posts, templates, and scripts.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node resume/scripts/build.js",
+    "build": "node resume/scripts/build.js",
+    "clean": "rimraf resume/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zulkarnain24/career-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zulkarnain24/career-portfolio/issues"
+  },
+  "homepage": "https://github.com/zulkarnain24/career-portfolio#readme",
+  "devDependencies": {
+    "eslint": "^10.6.0",
+    "front-matter": "^4.0.2",
+    "fs-extra": "^11.3.6",
+    "glob": "^13.0.6",
+    "gray-matter": "^4.0.3",
+    "handlebars": "^4.7.9",
+    "highlight.js": "^11.11.1",
+    "html-minifier-terser": "^7.2.0",
+    "markdown-it": "^14.3.0",
+    "marked": "^18.0.5",
+    "prettier": "^3.9.4",
+    "puppeteer": "^25.3.0",
+    "qrcode": "^1.5.4",
+    "rimraf": "^6.1.3",
+    "sass": "^1.101.0",
+    "vite": "^8.1.3"
+  }
+}
