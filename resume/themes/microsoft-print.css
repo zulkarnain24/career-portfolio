@@ -15,7 +15,8 @@
     print-color-adjust: exact !important;
   }
 
-  html, body {
+  html,
+  body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -37,7 +38,9 @@
   }
 
   /* Prevent unnecessary page breaks */
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     page-break-after: avoid;
   }
 
@@ -57,9 +60,15 @@
   }
 
   /* Optimize spacing for print */
-  h1 { margin: 0 0 8px 0; }
-  h2 { margin: 12px 0 6px 0; }
-  p { margin: 0 0 6px 0; }
+  h1 {
+    margin: 0 0 8px 0;
+  }
+  h2 {
+    margin: 12px 0 6px 0;
+  }
+  p {
+    margin: 0 0 6px 0;
+  }
 
   .rp-header {
     margin-bottom: 12px;
