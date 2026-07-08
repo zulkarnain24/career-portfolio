@@ -15,13 +15,10 @@ A platform connecting clients with legal professionals for on-demand consultatio
 
 **Impact:**
 
-- 30,000+ registered lawyers
-- 75,000+ active clients
-- 4.5/5 star rating
+- Enabled a two-sided marketplace with 30k+ registered professionals and 75k+ active clients by streamlining consultations and document workflows.
 
 **Technical Highlights:**
 
-- Built two-sided marketplace mobile application
-- Implemented secure document upload and sharing
-- Created video consultation framework
-- Designed reputation and rating system
+- Built a secure mobile marketplace with encrypted document workflows and video consultations.
+- Designed reputation and rating systems to improve matching and trust between users.
+- Implemented performance and scale measures to support concurrent consultations at peak load.

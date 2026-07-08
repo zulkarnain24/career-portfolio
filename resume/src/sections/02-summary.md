@@ -4,4 +4,4 @@ visible: true
 priority: 2
 ---
 
-Senior Software Engineer with 12+ years of experience architecting and delivering enterprise-grade mobile applications. Specialized in designing scalable IoT and BLE Mesh solutions for industrial applications. Proficient in building production-ready mobile platforms using React Native and native iOS (SwiftUI). Early adopter of AI-assisted development with expertise in GitHub Copilot, Model Context Protocol (MCP), and Agentic AI workflows. Proven track record of leading cross-functional teams to deliver high-impact projects that generate significant revenue and enhance operational efficiency.
+Senior Software Engineer with 12+ years building enterprise mobile platforms and industrial IoT solutions. I architect scalable BLE Mesh and IoT systems, lead cross-functional teams, and operationalize AI-assisted engineering to reduce delivery time and improve quality. Notable outcomes include multi-tenant mobile platforms with 50k+ active users, 10k+ device BLE Mesh deployments, and measurable developer productivity gains through Copilot-driven workflows.

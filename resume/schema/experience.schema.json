@@ -1,0 +1,12 @@
+{
+  "$id": "experience.schema.json",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "company": { "type": "string" },
+    "location": { "type": "string" },
+    "duration": { "type": "string" },
+    "priority": { "type": "number" },
+    "visible": { "type": "boolean" }
+  }
+}

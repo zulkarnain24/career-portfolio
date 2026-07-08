@@ -1,0 +1,16 @@
+<section class="timeline">
+  <div class="container">
+    <h2>Experience</h2>
+    <ul class="timeline-list">
+      {{#each experience}}
+        <li class="timeline-item">
+          <strong class="role">{{title}}</strong>
+          <span class="meta">{{company}}
+            —
+            {{duration}}{{#if location}}, {{location}}{{/if}}</span>
+          <div class="description">{{{html}}}</div>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

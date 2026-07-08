@@ -11,11 +11,11 @@ priority: 1
 
 **Senior Software Engineer** | 2020 - Present
 
-Led development of enterprise IoT and BLE Mesh solutions for power management systems. Architected mobile applications for industrial IoT monitoring and control using React Native and native iOS (SwiftUI). Drove adoption of AI-assisted development tools and workflows within the team.
+Led architecture and delivery of enterprise IoT and BLE Mesh solutions for power-management systems. Delivered mobile and embedded integrations that enabled remote monitoring, predictive alerts, and secure device control across industrial sites.
 
 **Key Achievements:**
 
-- Architected BLE Mesh protocol implementation for 10,000+ device deployments
-- Built React Native application serving 50,000+ users across industrial sectors
-- Mentored 8+ junior engineers in mobile architecture and AI-assisted development
-- Reduced development time by 40% through GitHub Copilot integration
+- Architected BLE Mesh stack and deployment pipelines supporting 10,000+ devices, improving network reliability and maintainability.
+- Delivered a cross-platform mobile platform (React Native + native modules) with 50k+ active users for monitoring and control workflows.
+- Reduced feature delivery cycle by ~40% through AI-assisted developer workflows and standardized component libraries.
+- Mentored engineering leads and established architecture patterns that decreased on-call incidents by 30%.

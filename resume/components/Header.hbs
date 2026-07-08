@@ -1,0 +1,18 @@
+<header class="rp-header">
+  <div class="container">
+    <h1 class="name">{{profile.name}}</h1>
+    {{#if profile.title}}<p class="title">{{profile.title}}</p>{{/if}}
+    {{#if profile.contact}}
+      <p class="contact">
+        {{#each profile.contact}}
+          <span class="contact-item">{{this}}</span>{{#unless @last}}
+            ·
+          {{/unless}}
+        {{/each}}
+      </p>
+    {{/if}}
+    {{#if profile.summary}}
+      <p class="summary">{{profile.summary}}</p>
+    {{/if}}
+  </div>
+</header>

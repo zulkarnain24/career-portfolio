@@ -11,11 +11,11 @@ priority: 3
 
 **Senior iOS Developer** | 2016 - 2018
 
-Specialized in building native iOS applications for smart city and IoT solutions. Developed BLE connectivity frameworks for environmental monitoring systems. Mentored junior developers in iOS architecture and design patterns.
+Built native iOS applications and BLE frameworks for smart-city and environmental IoT solutions. Owned end-to-end delivery from embedded connectivity to cloud ingestion, emphasizing reliability and low-power operation.
 
 **Key Achievements:**
 
-- Architected BLE framework enabling real-time sensor data collection
-- Built iOS applications for 100+ smart city deployments
-- Implemented secure data synchronization across mobile and cloud platforms
-- Improved app performance by 60% through optimization initiatives
+- Architected a BLE connectivity framework that enabled reliable, low-latency sensor telemetry for 100+ deployments.
+- Delivered iOS apps used in municipal and industrial monitoring systems, focusing on security and offline resilience.
+- Implemented efficient sync and batching strategies that reduced mobile data usage and improved throughput.
+- Improved application performance and reduced CPU usage by ~60% through targeted profiling and optimizations.

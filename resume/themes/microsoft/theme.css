@@ -1,0 +1,64 @@
+@import "../tokens.css";
+
+body {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.rp-header {
+  background: linear-gradient(
+    90deg,
+    rgba(37, 99, 235, 0.06),
+    rgba(15, 23, 42, 0.02)
+  );
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--elevation-1);
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.title {
+  color: var(--color-muted);
+  margin-top: 4px;
+}
+
+.section {
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--elevation-1);
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.project-card {
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  background: white;
+  box-shadow: var(--elevation-1);
+  margin-bottom: var(--space-md);
+}
+
+.footer {
+  text-align: center;
+  color: var(--color-muted);
+  margin-top: var(--space-xl);
+}

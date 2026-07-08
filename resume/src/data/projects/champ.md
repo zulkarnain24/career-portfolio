@@ -15,13 +15,10 @@ A social platform connecting fitness enthusiasts with personalized coaching and 
 
 **Impact:**
 
-- 100,000+ user base
-- 4.6/5 star rating
-- 3M+ monthly sessions
+- Grew to 100k+ users with 3M+ monthly sessions and a 4.6 rating by prioritizing performance and reliability.
 
 **Technical Highlights:**
 
-- Built cross-platform React Native application from scratch
-- Implemented real-time messaging and notifications
-- Designed scalable backend infrastructure on AWS
-- Optimized app performance achieving 2.5s startup time
+- Led development of a cross-platform React Native app and real-time services, focusing on low-latency messaging and reliable notifications.
+- Designed scalable backend services on AWS and Firebase to support rapid growth and high concurrency.
+- Optimized startup and runtime performance to improve user retention and engagement.
